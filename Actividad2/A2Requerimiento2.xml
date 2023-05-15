@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation= "A2Requerimiento2.xsd">
+    <!--Libros-->
+  <libros id="L">
+    <!--Atributos de libros tipo novela-->
+   <libro id="L0001" tipo_clase="novela" numero_paginas="Numero paginas">
+          <titulo>Titulo de Novela </titulo>
+          <capitulo numero_paginas="Numero paginas">
+               <nombre_capitulo>Nombre del capitulo</nombre_capitulo>
+               <contenido enlace="https://www.actividad2.com"/>
+          </capitulo>
+          <indice_libro>Contenido del indice</indice_libro>
+          <sinopsis>Contenido de la sinopsis</sinopsis>
+    </libro>
+   <!--Atributos de libros tipo infantil-->
+    <libro id="L0002" tipo_clase="infantil" numero_paginas="Numero paginas">
+          <titulo>Titulo de Libro Infantil</titulo>
+          <capitulo numero_paginas="Numero paginas">
+               <nombre_capitulo>Nombre del capitulo</nombre_capitulo>
+               <contenido enlace="https://www.actividad2.com"/>
+          </capitulo>
+          <indice_libro>Contenido del indice</indice_libro>
+          <sinopsis>Contenido de la sinopsis</sinopsis>
+  </libro>
+    <!--Atributos de libros tipo didáctico-->
+    <libro id="L0003" tipo_clase="didáctico" numero_paginas="Numero paginas">
+          <titulo>Titulo de Libro Didáctico</titulo>
+          <capitulo numero_paginas="Numero paginas">
+               <nombre_capitulo>Nombre del capitulo</nombre_capitulo>
+               <contenido enlace="https://www.actividad2.com"/>
+          </capitulo>
+          <indice_libro>Contenido del indice</indice_libro>
+          <sinopsis>Contenido de la sinopsis</sinopsis>
+    </libro>
+    </libros>
+    <!--Revistas-->
+  <revistas id="R">
+    <!--Atributos de revistas tipo informática-->
+    <revista id="R0001" tipo_clase="informática" numero_paginas="Numero de Páginas">
+          <titulo_revista>Titulo Revista Informática</titulo_revista>
+          <numero_revista>1</numero_revista>
+          <indice_revista>Contenido del índice</indice_revista>
+          <secciones_revista numero_paginas= "10">
+               <contenido_revista enlace_revista="https://www.actividad2.com"/>
+          </secciones_revista>
+    </revista>
+    <!--Atributos de revistas tipo corazón-->
+    <revista id="R0002" tipo_clase="corazón" numero_paginas="Numero de Páginas">
+          <titulo_revista>Titulo Revista Corazón</titulo_revista>
+          <numero_revista>2</numero_revista>
+          <indice_revista>Contenido del índice</indice_revista>
+          <secciones_revista numero_paginas="20">
+               <contenido_revista enlace_revista="https://www.actividad2.com"/>
+          </secciones_revista>
+    </revista>
+    <!--Atributos de revistas tipo coches-->
+    <revista id="R0003" tipo_clase="coches" numero_paginas="Numero de Páginas">
+          <titulo_revista>Titulo Revista Coches</titulo_revista>
+          <numero_revista>3</numero_revista>
+          <indice_revista>Contenido del índice</indice_revista>
+          <secciones_revista numero_paginas="30">
+               <contenido_revista enlace_revista="https://www.actividad2.com"/>
+          </secciones_revista>
+    </revista>
+    <!--Atributos de revistas tipo investigación-->
+    <revista id="R0004" tipo_clase="investigación" numero_paginas="Numero de Páginas">
+          <titulo_revista>Titulo Revista Investigación</titulo_revista>
+          <numero_revista>4</numero_revista>
+          <indice_revista>Contenido del índice</indice_revista>
+          <secciones_revista numero_paginas="40">
+               <contenido_revista enlace_revista="https://www.actividad2.com"/>
+          </secciones_revista>
+    </revista>
+    <!--Atributos de revistas tipo otras-->
+    <revista id="R0005" tipo_clase="otras" numero_paginas="Numero de Páginas">
+          <titulo_revista>Titulo Revista Otras</titulo_revista>
+          <numero_revista>5</numero_revista>
+          <indice_revista>Contenido del índice</indice_revista>
+          <secciones_revista numero_paginas="50">
+               <contenido_revista enlace_revista="https://www.actividad2.com"/>
+          </secciones_revista>
+    </revista>
+  </revistas>
+    
+    <!--Periódicos-->
+  <periodicos id="P">
+    <!--Atributos de periódicos tipo nacional-->
+    <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="Fecha publicacion">
+          <titulo_periodico>Titulo del periódico</titulo_periodico>
+          <indice_contenido>Indice contenido</indice_contenido>
+          <secciones_periodico>
+            <seccion id="economica">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+          </seccion>
+
+           <seccion id="opinion">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+
+           <seccion id="deportes">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+
+           <seccion id="nacional">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+
+           <seccion id="internacional">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+          </secciones_periodico>
+    </periodico>
+
+    <!--Atributos de periódicos tipo internacional-->
+    <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="Fecha publicacion">
+          <titulo_periodico>Titulo del periódico</titulo_periodico>
+          <indice_contenido>Indice contenido</indice_contenido>
+          <secciones_periodico>
+            <seccion id="economica">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+          </seccion>
+
+           <seccion id="opinion">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+
+           <seccion id="deportes">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+
+           <seccion id="nacional">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+
+           <seccion id="internacional">
+              <articulos autor="Autor">
+                <contenido_articulos enlace_periodico="https://www.actividad2.com"/>
+              </articulos>
+           </seccion>
+          </secciones_periodico>
+    </periodico>
+  </periodicos>
+     
+
+
+</biblioteca>
